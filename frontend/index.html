@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/font.css">
     <title>Habitz — Заметки и Задачи</title>
@@ -10,8 +11,53 @@
 <body>
 
     <header>
-        
+
     </header>
+
+    <aside id="myAside">
+        <div class="content-aside">
+            <div class="content-head">
+                <div class="name-aside">
+                    <img src="">
+                    <p class="name">Тахир</p>
+                    <p></p>
+                </div>
+                <div class="notific-add">
+                    <img src="">
+                    <div class="button-container">
+                    <p class="button-p" onclick="toggleAside()">&equiv;</p>
+                    <span id="closeAsideButton" class="close" onclick="closeAside()">&#10006;</span>
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Добавить задачу</p>
+                </div>
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Поиск</p>
+                </div>
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Сегодня</p>
+                </div>
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Входящие</p>
+                </div>
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Избранные</p>
+                </div>
+                <div class="task-aside">
+                    <img src="" alt="">
+                    <p>Фильтры и метки</p>
+                </div>
+            </div>
+        </div>
+
+    </aside>
 
     <main>
 
@@ -22,4 +68,5 @@
     </footer>
 
 </body>
+<script src="JS/index.js"></script>
 </html>
